@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eight Ball</title>
+</head>
+<body>
+    <div class="container">
+        <h1>8ball</h1>
+        <form method="GET" action="">
+            <input id="form" type="text" placeholder="ask me anything">
+        </form>
+        <!-- <button id="submit" type="submit">Get Answers</button> -->
+        <input type="submit" value="get answers" onclick="document.write(getAnswers())" />
+    </div>
+    <div class="container">
+ 
+        <p id="responses"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

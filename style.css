@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#form{
+    outline: none;
+    border-radius: 7px;
+}
+
+#form:hover{
+    box-shadow: 0 0 20px .5px rgba(151, 151, 151, 0.5);
+}
+
